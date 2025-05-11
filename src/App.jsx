@@ -106,7 +106,7 @@ function App() {
           value={searchQuery}
           onChange={(e) => setSearchQuery(e.target.value)}
           placeholder="Search by task"
-          className="form-control w-25"
+          className="form-control w-25 "
         />
       </div>
 
@@ -131,7 +131,7 @@ function App() {
                   {task.text}
                 </span>
                 <button
-                  className="btn btn-danger btn-sm ms-3"
+                  className="btn btn-danger btn-sm ms-3 p-1"
                   onClick={() => deleteTask(task.id)}
                 >
                   Delete
